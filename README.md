@@ -34,3 +34,20 @@ You have to start the server.js file in the project root folder.
   ```
 Go to localhost:3000 and login with user: jim and password: jim. You can change this in 
 <strong>server/authentication.js</strong>,at the top.
+
+Deploying the middleend
+=======================
+You use grunt to deploy the project.
+  ```terminal
+  grunt deploy
+  ```
+
+To run it in production:
+  ```terminal
+  NODE_ENV=production node server
+  ```
+or on windows:
+  ```terminal
+  SET NODE_ENV=production
+  node server
+  ```
