@@ -1,7 +1,8 @@
 middleend-boilerplate
 =====================
 
-A boilerplate for building applications with a middleend
+A boilerplate for building applications with a middleend. This is an ongoing project, trying to build good concepts
+on handling different aspects of a middleend.
 
 Deps
 ====
