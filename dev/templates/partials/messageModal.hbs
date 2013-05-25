@@ -1,0 +1,96 @@
+<div class="modal hide fade" id="modal">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>Create a new message</h3>
+    </div>
+    <div class="modal-body">
+        <form class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label">Contact person:</label>
+
+                <div class="controls">
+                    <input type="text" id="pointOfContact" placeholder="Search...">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Comment:</label>
+
+                <div class="controls">
+                    <textarea rows="4" id="comment"></textarea>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Priority:</label>
+
+                <div class="controls">
+                    <label class="radio">
+                        <input type="radio" name="optionsRadios" id="priority1" value="1">
+                        1
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="optionsRadios" id="priority2" value="2" checked>
+                        2
+                    </label>
+                </div>
+
+            </div>
+            <div class="control-group">
+                <label class="control-label">Start time:</label>
+                <div class="controls">
+                    <div id="startTime" class="input-append">
+                        <input data-format="MM/dd/yyyy HH:mm PP" type="text"/>
+                        <span class="add-on">
+                        <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">End time:</label>
+                <div class="controls">
+                    <div id="endTime" class="input-append">
+                        <input data-format="MM/dd/yyyy HH:mm PP" type="text"/>
+                        <span class="add-on">
+                        <i data-time-icon="icon-time" data-date-icon="icon-calendar"></i>
+                        </span>
+                        <span class="add-on addTime">
+                        <small>1h</small>
+                        </span>
+                        <span class="add-on addTime">
+                        <small>2h</small>
+                        </span>
+                        <span class="add-on addTime">
+                        <small>4h</small>
+                        </span>
+                        <span class="add-on addTime">
+                        <small>6h</small>
+                        </span>
+                        <span class="add-on addTime">
+                        <small>12h</small>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Environment:</label>
+
+                <div class="controls">
+                    <input type="text" id="environment">
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label">Case number:</label>
+
+                <div class="controls">
+                    <input type="text" id="casenumber">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="modal-footer">
+        <a href="" class="btn" id="close">Close</a>
+        <a href="" class="btn btn-primary" id="save">Save changes</a>
+    </div>
+</div>

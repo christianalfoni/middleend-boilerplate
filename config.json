@@ -1,0 +1,18 @@
+{
+    "development": {
+        "client": {
+            "debug": true
+        },
+        "publicDir": "/dev",
+        "port": 3000,
+        "wsUrl": "http://10.5.1.74:1337"
+    },
+    "production": {
+        "client": {
+            "debug": false
+        },
+        "publicDir": "/dist",
+        "port": 3000,
+        "wsUrl": "http://10.5.1.74:1337"
+    }
+}
