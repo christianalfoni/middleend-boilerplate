@@ -52,6 +52,15 @@ or on windows:
   node server
   ```
 
+Testing your application
+========================
+To run the tests:
+  ```terminal
+  grunt test
+  ```
+This will run the specs defined under <strong>tests/specs</strong>.
+### Writing a test
+
 Good to know
 ============
 ### Authentication
