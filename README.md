@@ -10,6 +10,10 @@ the grunt-cli node module.
   ```terminal
   npm install grunt-cli -g
   ```
+You might have to use 'sudo'.
+  ```terminal
+  sudo npm install grunt-cli -g
+  ```
   
 Install middleend
 =================
